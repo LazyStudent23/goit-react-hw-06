@@ -4,7 +4,7 @@ import { AddContactSchema } from "../../validation-schema";
 import { useDispatch } from "react-redux";
 
 import styles from "./ContactForm.module.css";
-import { addContact } from "../redux/contactsSlice/contactsSlice";
+import { addContact } from "../../redux/contactsSlice/contactsSlice";
 
 const ContactForm = () => {
   const INITIAL_VALUES = { name: "", number: "" };
